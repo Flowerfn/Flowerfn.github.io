@@ -4,20 +4,61 @@
       img {
         border: 3px solid rebeccapurple; 
       }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4px;
+        /* justify-content: center;
+        align-items: center; */
+      }
+      figcaption,  h1{
+        text-align: center;
+      }
     </style>
   </head>
   <body>
-    <h1>lilac photo gallery</h1>
-    <img src="Glory.jpg" height="300" width="auto" />
-        <p>Glory</p>
-    <img src="Agincourt_Beauty.jpg" height="300" width="auto" />
-       <p>Agincourt_Beauty</p>
-    <img src="Beauty_of_Moscow.jpg" height="300" widtih="auto" />
-    <img src="Nadezhda.jpg" height="300" width="auto" />
-    <img src="Paul_Thirion.jpg" height="300" width="auto" />
-    <img src="Atheline_Wilbur.jpg" height="300" width="auto" />
-    <img src="Jesse_Gardner1.jpg" height="300" width="auto" />
-    <img src="Jesse_Gardner2.jpg" height="300" width="auto" />
-    <img src="Mr._Lincoln.jpg" height="300" width="auto" />
+    <h1>Lilac Photo Gallery</h1>
+    <div class="grid">
+      <figure>
+        <img src="Glory.jpg" height="300" width="auto" />
+        <figcaption>Glory</figcaption>
+      </figure>
+      <figure>
+        <img src="Agincourt_Beauty.jpg" height="300" width="auto" />
+        <figcaption>Agincourt Beauty</figcaption>
+      </figure>
+      <figure>
+        <img src="Beauty_of_Moscow.jpg" height="300" widtih="auto" />
+        <figcaption>Beauty of Moscow</figcaption>
+      </figure>
+      <figure>
+        <img src="Nadezhda.jpg" height="300" width="auto" />
+        <figcaption>Nadezhda</figcaption>
+      </figure>
+      <figure>
+        <img src="Paul_Thirion.jpg" height="300" width="auto" />
+        <figcaption>Paul Thirion</figcaption>
+      </figure>
+      <figure>
+        <img src="Atheline_Wilbur.jpg" height="300" width="auto" />
+        <figcaption>Atheline Wilbur</figcaption>
+      </figure>
+      <figure>
+        <img src="Jesse_Gardner1.jpg" height="300" width="auto" />
+        <figcaption>Jesse Gardner</figcaption>
+      </figure>
+      <figure>
+        <img src="Jesse_Gardner2.jpg" height="300" width="auto" />
+        <figcaption>Jesse Gardner</figcaption>
+      </figure>
+      <figure>
+        <img src="Mr._Lincoln.jpg" height="300" width="auto" />
+        <figcaption>Mr. Lincoln</figcaption>
+      </figure>
+      <figure>
+        <img src="Victor_Lemoine.jpg" height="300" width=""auto />
+        <figcaption>Victor Lemoine</figcaption>
+      </figure>
+    </div>
   </body>
 </html>
